@@ -1,0 +1,102 @@
+
+body {
+    padding:0;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Secular One', sans-serif;
+}
+
+ul {
+    padding:0;
+    margin: 0;
+}
+
+li{
+    padding: 16px;
+    border-bottom: 1px solid #000000);
+}
+
+li:hover{
+    background-color:rgba(25,59,76,255);
+    
+}
+.navlinks {
+    background-color: #000000;
+    color:white;
+    text-align: center;
+    font: size 1rem;
+}
+.imagebanner {
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.macaubusiness.com%2Fwp-content%2Fuploads%2F2018%2F03%2F04-In_Game_Scene_Screenshot_2.jpg&f=1&nofb=1");
+    padding: 300px; background-size: cover;
+}
+
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size:xxx-large;
+}
+
+h3{
+    text-align: Left;
+    color: white;
+    font-size: xx-large;
+
+}
+
+h4{
+    padding: 1ch;
+    text-align: center;
+    color: white;
+    width: fit-content;
+
+}
+
+
+
+h6{
+    text-align: left;
+    color: white;
+    font-size: xx-large;
+
+
+}
+
+.introduction {
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+.ourgames ::after {
+    text-align: center;
+    content:"";
+    clear: both;
+    display: table;
+}
+.games {
+    float:left;
+    width: 32%;
+    padding: 5px;
+    color: white;
+    vertical-align: top;
+    font-size: small;
+
+}
+.news {
+    display: block;
+    margin-left: 50%S;
+    margin-right: 50%;
+    color: white;
+    font-size: small;
+}
+
+
+@media screen and (min-width: 700px) {
+    ul {
+        text-align: right;
+    }
+    li{
+        display: inline-block;
+        border-bottom: 0px;
+    }
